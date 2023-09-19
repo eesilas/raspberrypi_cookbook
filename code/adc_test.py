@@ -12,4 +12,4 @@ while True:
     reading = analog_read(0)
     voltage = reading * 3.3 / 1024
     print("Reading=%d\tVoltage=%f" % (reading, voltage))
-    time.sleep(1)
+    time.sleep(10)
